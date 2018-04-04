@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		78118B762072203000AF57C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78118B752072203000AF57C5 /* main.m */; };
+		78118B7E2072231000AF57C5 /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = 78118B7D2072231000AF57C5 /* Gun.m */; };
+		785097732074629D0008C8C0 /* iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 785097722074629D0008C8C0 /* iPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		78118B722072203000AF57C5 /* OC_CL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_CL; sourceTree = BUILT_PRODUCTS_DIR; };
 		78118B752072203000AF57C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78118B7C2072231000AF57C5 /* Gun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		78118B7D2072231000AF57C5 /* Gun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
+		785097712074629D0008C8C0 /* iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone.h; sourceTree = "<group>"; };
+		785097722074629D0008C8C0 /* iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				78118B752072203000AF57C5 /* main.m */,
+				78118B7C2072231000AF57C5 /* Gun.h */,
+				78118B7D2072231000AF57C5 /* Gun.m */,
+				785097712074629D0008C8C0 /* iPhone.h */,
+				785097722074629D0008C8C0 /* iPhone.m */,
 			);
 			path = OC_CL;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78118B7E2072231000AF57C5 /* Gun.m in Sources */,
+				785097732074629D0008C8C0 /* iPhone.m in Sources */,
 				78118B762072203000AF57C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
